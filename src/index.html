@@ -4,17 +4,24 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-        <title>Transcribe</title>
+        <title>Zendog-scribe-openai-psico</title>
         <link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="icon" type="image/x-icon"a href="mulciber.ico">
         <script src="index.js"></script>
     </head>
-    <body>
+    <body><br><center><br><br><br>
+	
+	<h1>Zendog Scribe</h1>
+	
+	<br><br>
+	<h3>Transcribe audio files, in any language, direct to text document.</h3>
         <div class="container">
             OpenAI API key:
             <input type="text" id="api-key" placeholder="sk-xxxx">
-            <div class="disclaimer">The API key is only sent to Open AI directly. It is saved to your browser's localStorage.</div>
+			<br>
+            <div class="disclaimer">API KEY: It is saved to your browser's localStorage.</div>
             <div id="start-view">
-                Start by <a href="https://platform.openai.com/account/api-keys" target="_blank">getting an API key</a> from OpenAI.
+                Start by getting an<a href="https://platform.openai.com/account/api-keys" target="_blank"> API key</a> from OpenAI.
                 <div class="disclaimer">OpenAI documentation says "Do not share your API key with others, or expose it in the browser or other client-side code." This means that if you are <strong>building</strong> a web app, you should not leak the service's API key to your users.</div>
             </div>
             <form id="upload-form">
@@ -85,18 +92,34 @@
                     <option value="srt">SRT</option>
                     <option value="vtt">VTT</option>
                 </select><br />
-                <br>
-                <label for="audio-file" class="button">Choose an audio file</label>
+                <br><br><br><center>
+                <label for="audio-file" class="button">Choose an audio file</label></center>
                 <input type="file" accept="audio/mp3, audio/mp4, audio/mpeg, audio/mpga, audio/m4a, audio/wav, audio/webm, video/mp4, video/mpeg, video/webm" id="audio-file" name="file" style="visibility:hidden;">
-              </form>
-            <div id="output"></div>
+              </form><br><br>
+            <div id="output"></div><br>
+			<br><br>
+metamask address ; 0x63673528404C9B9394d4Ec6FA037ED825c8b0faa
+  <br><br>
+  Copyright © 2023 Psico Communications and Blockchain Development.
+  
+  <br><br>
+  <br><br>
+  
+  
+ Licensed under the Apache License, Version 2.0 (the "License");<br>
+you may not use this file except in compliance with the License.<br>
+You may obtain a copy of the License at<br>
+<br>
+<a href="https://www.apache.org" target="_blank">Apache.org</a><br>
+			
             <footer>
-                <a href="https://platform.openai.com/account/usage" target="_blank">Your usage</a>
+                <a href="https://platform.openai.com/account/billing/overview" target="_blank">Open AI</a>
                 &middot;
-                <a href="https://github.com/felixbade/transcribe" target="_blank">Source code</a>
+                <a href="https://github.com/Mulc1b3R/scribe" target="_blank">Source code</a>
                 &middot;
-                <a href="https://github.com/felixbade/transcribe/issues" target="_blank">Feature request</a>
+                <a href="http://psico.42web.io/" target="_blank">psico communications</a>
             </footer>
         </div>
+		</center>
     </body>
 </html>
